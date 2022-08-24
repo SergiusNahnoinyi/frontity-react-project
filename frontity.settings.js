@@ -2,7 +2,7 @@ const settings = {
   name: "frontity-react-project",
   state: {
     frontity: {
-      url: "https://sergiuswebdev.wordpress.com",
+      url: "https://test.frontity.org",
       title: "WordPress Website",
       description: "WordPress website using Frontity",
     },
@@ -13,7 +13,10 @@ const settings = {
       state: {
         theme: {
           menu: [
-            ["Shop", "/"],
+            ["Home", "/"],
+            ["Nature", "/category/nature/"],
+            ["Travel", "/category/travel/"],
+            ["Japan", "/tag/japan/"],
             ["About Us", "/about-us/"],
           ],
           featured: {
@@ -27,7 +30,7 @@ const settings = {
       name: "@frontity/wp-source",
       state: {
         source: {
-          url: "https://sergiuswebdev.wordpress.com/wp-json",
+          url: "https://test.frontity.org",
         },
       },
     },
