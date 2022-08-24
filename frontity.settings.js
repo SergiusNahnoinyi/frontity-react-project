@@ -3,8 +3,8 @@ const settings = {
   state: {
     frontity: {
       url: "https://sergiuswebdev.wordpress.com",
-      title: "WordPress React Website",
-      description: "WordPress website using React and Frontity",
+      title: "WordPress Website",
+      description: "WordPress website using Frontity",
     },
   },
   packages: [
@@ -13,10 +13,7 @@ const settings = {
       state: {
         theme: {
           menu: [
-            ["Home", "/"],
-            ["Nature", "/category/nature/"],
-            ["Travel", "/category/travel/"],
-            ["Japan", "/tag/japan/"],
+            ["Shop", "/"],
             ["About Us", "/about-us/"],
           ],
           featured: {
